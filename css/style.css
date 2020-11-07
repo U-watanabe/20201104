@@ -1,0 +1,275 @@
+
+/*全体　共通
+最初から設定してあるので特に変更
+しなくても大丈夫です♪
+-----------------*/
+body{
+	font-family: Roboto, "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+	line-height: 1.75;
+	font-size: 16px;
+	text-align: center;
+	width: 960px;
+}
+
+
+/*　パディングをサイズ内側にする処理　*/
+* {
+	padding:0;
+	margin:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*ーーーーーーーーーーー*/
+/*この下から記述*/
+/*ーーーーーーーーーーー*/
+
+.title_box{
+	width: 960px;
+	height: 360px;
+	background-image: url(../img/mainbg.png);
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.title{
+	color: white;
+	font-size: 48px;
+}
+
+.subtitle{
+	color: white;
+	font-size: 36px;
+}
+
+.menu{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.menu_logo{
+	height: 80px;
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.menu_logo_file{
+	width: 60%;
+}
+
+.menu_text{
+	width: 50%;
+	font-size: 21px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.menu_about{
+	font-size: 24px;
+	color: #ffd61a
+}
+
+.about_image{
+	width: 960px;
+	height: 150px;
+	background-image: url(../img/about-image.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.course{
+	font-size: 24px;
+	color: #222222;
+}
+
+.about1{
+	display: flex;
+}
+
+.about1_box{
+	width: 50%;
+}
+
+.about1_box_image{
+	width: 100%;
+}
+
+.about1_textbox{
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #fafafa;
+}
+
+.about1_text{
+	width: 85%;
+}
+
+.about1_text1{
+	font-size: 24px;
+	color: #222222;
+}
+
+.about2{
+	display: flex;
+}
+
+.about2_box{
+	width: 50%;
+}
+
+.about2_box_image{
+	width: 100%;
+}
+
+.about2_textbox{
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #fafafa;
+}
+
+.about2_text{
+	width: 85%;
+}
+
+.about2_text1{
+	font-size: 24px;
+	color: #222222;
+}
+
+.about3{
+	display: flex;
+}
+
+.about3_box{
+	width: 50%;
+}
+
+.about3_box_image{
+	width: 100%;
+}
+
+.about3_textbox{
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #fafafa;
+}
+
+.about3_text{
+	width: 85%;
+}
+
+.about3_text1{
+	font-size: 24px;
+	color: #222222;
+}
+
+.news{
+    font-size: 24px;
+	color: #ffd61a	
+}
+
+.btn--orange,
+a.btn--orange {
+  font-size: 21px;
+  width: 300px;
+  height: 60px;
+  color: #fff;
+  background-color: #ffd61a;
+}
+.btn--orange:hover,
+a.btn--orange:hover {
+  color: #fff;
+  background:  #ffd61a;
+}
+
+.access{
+	font-size: 24px;
+	color: #222222;
+}
+
+.access_box{
+	background-color: #fafafa;
+}
+
+.contact{
+	font-size: 24px;
+	color:#222222;
+}
+
+.form_box{
+	display: block;
+}
+
+form{
+  width:460px;
+  margin:0 auto;
+}
+.item{
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.label{
+  float: left;
+  margin-right: 20px;
+  width:135px;
+  padding-left: 10px;
+}
+
+.inputs{
+  float: left;
+  width:300px;
+}
+
+input[type="text"],input[type="email"]{
+  border: solid 1px #bfbfbf;
+  border-radius:5px;
+  padding:10px;
+}
+
+textarea{
+  border: solid 1px #bfbfbf;
+  border-radius:5px;
+  padding: 10px;
+  height: 36px;
+  width: 328px;
+
+
+/*どの部分のcssに対して
+命令をしているのかコメントを
+記載しよう！
+---------------------*/
+
+
+/*
+---------------------*/
+
+
+
+/*
+---------------------*/
+
+
+
+/*
+---------------------*/
+
+
+
+/*
+---------------------*/
